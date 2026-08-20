@@ -8,9 +8,14 @@ A static portfolio site showcasing technical writing samples for CIS coursework 
 index.html                                  Main portfolio page
 styles.css                                  Site styling
 writing-samples/
-  AI-Generated-Content-Affecting-Your-Freedom.pdf   Long-form research report
-  technical-explanation.html                 Discussion post sample
-  leadership-reflection.html                 Reflective writing sample
+  AI-Generated-Content-Research-Report.pdf         Long-form research report
+  AI-Generated-Content-Presentation.pdf            Companion slide presentation
+  LED-Exit-Sign-Proposal.pdf                       Business proposal
+  WiFi-Troubleshooting-Instructions.pdf            Technical instructions
+  World-Orange-Production-Data-Visualization.pdf   Data visualization exercise
+  Starbucks-Social-Media-Evaluation.pdf            Case study analysis
+  Workplace-Messaging-Collaboration-Tools.pdf      Research paper
+  Removing-the-ISM-Exercise.pdf                    Editing exercise
 resume.pdf                                   (Add your own résumé PDF here)
 ```
 
@@ -18,9 +23,7 @@ resume.pdf                                   (Add your own résumé PDF here)
 
 1. **Add your résumé.** Save a PDF of your current résumé as `resume.pdf` in this folder (replacing the placeholder reference in `index.html` if you name it differently).
 2. **Update your email.** In `index.html`, find `mailto:youremail@example.com` in the Contact section and replace it with your real email address.
-3. **Add more writing samples** as you complete them. Two options:
-   - **PDF:** drop the file into `writing-samples/`, then copy one of the `<article class="sample">` blocks in `index.html` and update the title, description, and the `href` to point to your new PDF.
-   - **HTML page:** duplicate `writing-samples/technical-explanation.html`, replace the title and body content, save it under a new filename in `writing-samples/`, then add a matching `<article class="sample">` block in `index.html` linking to it.
+3. **Add more writing samples** as you complete them: drop the PDF into `writing-samples/`, then copy one of the `<article class="sample">` blocks in `index.html` and update the tag, title, description, and the `href` to point to your new PDF.
 4. **Preview locally** by opening `index.html` directly in a browser before publishing, to confirm all links work.
 
 ## Publishing with Git and GitHub Pages
